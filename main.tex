@@ -3,10 +3,13 @@
 \usepackage[a4paper,top=2.54cm,bottom=2.54cm,left=2.54cm,right=2.54cm,headheight=16pt]{geometry}
 \setlength{\marginparwidth}{2cm}
 
+\bibliographystyle{ieeetr}
+
 %% Language and font encodings
 \usepackage[T1]{fontenc} 
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
+\usepackage{multicol} % If required use \begin{multicols}{#}
 
 %% Useful packages for function and style
 \usepackage{amsmath}
@@ -112,5 +115,6 @@ Signed: \uline{\hfill Michael John Flynn \hfill} \hfill Date: \uline{ \hfill \to
 
 \include{sections/section1}
 
+\bibliography{ref} % zbib.org
 
 \end{document}
